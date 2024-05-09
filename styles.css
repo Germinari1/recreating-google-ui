@@ -1,0 +1,121 @@
+/*
+COLOR PALLETE:
+    #008744	(0,135,68)
+    #0057e7	(0,87,231)
+    #d62d20	(214,45,32)
+    #ffa700	(255,167,0)
+    #ffffff	(255,255,255)
+FONT: DM sans 
+*/
+
+/*globally apply font*/
+*
+{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.search_bar
+{
+    display: flex;
+    margin: 0 auto;
+    padding: 12px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 500px;
+    
+}
+
+.search_bar_adv
+{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 500px;
+}
+
+.search_btn
+{
+    padding: 12px 20px;
+    border: none; 
+    border-radius: 25px;
+    background: #4285f4;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#feeling_lucky
+{
+    padding: 12px 20px;
+    border: 2px solid #4285f4;
+    border-radius: 25px;
+    
+    color: #4285f4; 
+    background-color: transparent;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#submit_div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#adv_s_div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.advanced-search-container {
+    margin: 50px 40px;
+  }
+  .advanced-search-container label {
+    display: inline-block;
+    width: 16%;
+    font-size: 20px;
+  }
+  .advanced-search-container .whitespace {
+    display: inline-block;
+    width: 50%;
+  }
+  .advanced-search-container .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+  .advanced-search-container .form-group label {
+    width: 16%;
+    font-size: 14px;
+  }
+  .advanced-search-container .form-group input[type=text] {
+    width: 49%;
+    padding: 2px 0;
+  }
+  .advanced-search-container .form-group .clarification {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+  }
+  .advanced-search-container .form-group .clarification .monospace {
+    font-family: monospace;
+  }
+  .advanced-search-container .form-group .right-align {
+    width: 50%;
+  }
